@@ -1,0 +1,27 @@
+body {
+	font-size: 12px;
+}
+
+#header {
+	width: 100%
+	margin: 0;
+	height: 50px;
+	border-bottom: 5px solid seagreen;
+	background: seagreen;
+}
+
+#content {
+
+}
+
+#footer {
+	width: 100%
+	margin: 0;
+	height: 50px;
+	background: seagreen;
+  color: white;
+}
+
+.msg-line {
+	font-size: 12px;
+}

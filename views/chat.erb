@@ -1,0 +1,12 @@
+Welcome! Users logged in: <%= @user_list %> 
+<script type='text/javascript' src='script.js'></script>
+<br/>
+<a href="/signout">Logout</a>
+<br/>
+<input type="text" id="message" name="message"/>
+<input type="button" name="sendmsg" value="Send" onclick="post();"/>
+<br/>
+<br/>
+<input type='hidden' id='msg_number' value='<%= @msg_number %>'/>
+<br/>
+Mensagens: <div id="msgs"></div>
